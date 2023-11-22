@@ -1,3 +1,6 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-radio-group [(ngModel)]="value">
+    <ion-radio value="1" [disabled]="undefined">Radio 1</ion-radio>
+    <ion-radio value="2" [disabled]="undefined">Radio 2</ion-radio>
+  </ion-radio-group>
 </ion-app>
